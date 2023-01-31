@@ -22,11 +22,14 @@
     </svg>
     <h1 class="page-title">Conversor de moedas</h1>
     <label class="label" for="name">Seu Nome:</label>
-    <input class="input" id="name" name="name" type="text" />
+    <input class="input" id="name" type="text" />
     <label class="label" for="value">Valor:</label>
-    <input class="input" id="value" name="value" type="number" placeholder="$ 0,00" />
+    <input class="input" id="value" type="number" placeholder="$ 0,00" />
     <button class="button" type="submit" onclick="exchange()">
       <div class="button-text">Converter</div>
+    </button>
+    <button class="button" type="button" onclick="clearFields()">
+      <div class="button-clean">Limpar</div>
     </button>
   </div>
 </body>

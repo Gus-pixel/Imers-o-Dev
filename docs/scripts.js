@@ -13,3 +13,8 @@ function exchange() {
     alert("Por favor, preencha o campo com o valor desejado..");
   }
 }
+
+function clearFields() {
+  document.getElementById("name").value = "";
+  document.getElementById("value").value = "";
+}
