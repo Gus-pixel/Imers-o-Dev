@@ -1,7 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
   text-align: center;
-  background-color: #179dbe;
+  align-items: center;
+  background-color: #ffeda0;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -10,17 +11,69 @@ body {
 
 .container {
   text-align: center;
-  background-color: #93ebcd;
+  background-color: #f5895c;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 20px;
+  margin: 5vh 10vw;
+  display: inline-block;
+  text-align: center;
 }
 
 .page-title {
-  color: #ffffff;
-  margin: 0 0 5px;
+  color: #f9f5e0;
+  margin: 0 0 16px;
 }
 
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
+.label {
+  color: #f9f5e0;
+  display: block;
+}
+
+.input[type="text"],
+.input[type="number"] {
+  color: #f5895c;
+  padding: 7px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8d1b4;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.input[type="text"]:focus,
+.input[type="number"]:focus {
+  transition: 0.1s;
+  outline: 2px solid #79d3f4;
+}
+.input[type="number"]::placeholder {
+  color: #f5895c;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #eef2f3;
+  background-color: #68b6ef;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  transition: 0.3s;
+  background-color: #61cef2;
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+}
+
+.imagem {
+  content: url("");
 }
