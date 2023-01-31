@@ -41,6 +41,10 @@ body {
   font-weight: bold;
 }
 
+.input[type="number"] {
+  margin-bottom: 32px !important;
+}
+
 .input[type="text"]:focus,
 .input[type="number"]:focus {
   transition: 0.1s;
