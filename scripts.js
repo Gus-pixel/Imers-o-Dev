@@ -1,7 +1,9 @@
 var dollarPrice;
 
 function exchange() {
-  fetch("http://economia.awesomeapi.com.br/json/last/USD")
+  fetch("http://economia.awesomeapi.com.br/json/last/USD", {
+    referrerPolicy: "unsafe_url",
+  })
     .then((result) => result.json())
     .then((data) => {
       dollarPrice = data.USDBRL.ask;
